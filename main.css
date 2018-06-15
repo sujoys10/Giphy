@@ -1,0 +1,83 @@
+body{
+    width: 100%;
+}
+
+@media screen and (min-width:576px){
+    body{
+        width: 90%;
+    }
+}
+
+#sticker{
+    display: none;
+}
+
+@media screen and (min-width:576px){
+    body{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+li{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#stickrs{
+    align-items: flex-end;
+}
+
+.search{
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+.searchButton{
+    height: 36px;
+    width: 15%;
+}
+@media screen and (min-width:576px){
+    .search{
+        width: 90%;
+        height: 30px;
+        padding-left: 10px;
+        border: 1px solid black;
+    }
+    .searchButton{
+        height: 34px;
+        width: 38px;
+    } 
+}
+.container{
+    padding-top: 12px;
+    padding-left: 6px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 220px;
+    width: 100%;
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
+
+@media screen and (min-width:576px){
+    .card{
+        height: 300px;
+        width: 30.75%;
+        margin-bottom: 8px;
+        margin-right: 8px;
+    }
+}
+ 
+
+.card img{
+    height: 100%;
+    width: 100%;
+}
